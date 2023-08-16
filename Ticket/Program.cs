@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<TicketDbContext>(builder =>
 {
-    builder.UseSqlServer("Server=89.252.185.155\\MSSQLSERVER2012;Database=tayfunu1_Ticket;User Id=tayfunu1_ticket;Password=414623752A.;Trusted_Connection=False");
+    builder.UseSqlServer("Server=.;Trusted_Connection=False");
     builder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
