@@ -1,3 +1,3 @@
 # Ticket
 
-  Web tabanlı proje backend tarafı 
+  Web tabanlı proje backend tarafı yapılmıştır
